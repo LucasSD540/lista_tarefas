@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.container h1 {
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(16, 175, 16);
+}
+
+ul {
+    list-style: none;
+}
+
+.linha {
+    text-decoration: line-through;
+}
